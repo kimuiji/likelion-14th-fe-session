@@ -85,6 +85,8 @@ type: Subject
 | `Fix` | 버그 수정 |
 | `Design` | 사용자 UI 디자인 변경 |
 | `Style` | 코드 스타일 변경 |
+
+
 | `Refactor` | 코드 리팩토링 |
 | `Docs` | 문서 수정 |
 | `Chore` | 기타 변경 사항 |
