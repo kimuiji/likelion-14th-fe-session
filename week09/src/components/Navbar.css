@@ -1,0 +1,15 @@
+.navbar {
+  position: fixed;        /* 상단 고정 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent);
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.navbar-logo {
+  width: 130px;   /* ← 이 숫자 줄여보세요 */
+  height: auto;   /* 비율 유지 */
+}

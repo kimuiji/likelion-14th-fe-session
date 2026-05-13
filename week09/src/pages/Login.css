@@ -1,0 +1,105 @@
+/* 전체 배경 */
+.login {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #4b070a, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 중앙 카드 */
+.login-box {
+  padding: 60px 68px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-box h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.login-subtitle {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+/* 입력창 */
+.login-input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+.login-input.input-error {
+  border-color: #e80303;
+}
+
+/* 에러 메시지 */
+.error-msg {
+  color: #e80303;
+  font-size: 13px;
+  margin-top: -8px;
+}
+
+/* 다음 버튼 */
+.login-btn {
+  width: 100%;
+  padding: 16px;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.login-btn:hover {
+  background-color: #f40612;
+}
+
+/* 고객 지원 */
+.support-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.support-toggle {
+  background: none;
+  border: none;
+  color: #b3b3b3;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.support-toggle:hover {
+  text-decoration: underline;
+}
+
+.support-text {
+  color: #b3b3b3;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5;
+}
