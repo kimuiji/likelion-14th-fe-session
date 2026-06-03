@@ -7,6 +7,8 @@ import "./index.css";
 function App() {
   return (
     <BrowserRouter>
+
+    
     <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/login" />} />
